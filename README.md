@@ -17,7 +17,7 @@
 |:--|--:|--:|--:|
 | *Always predict "normal"* | *77.8%* | *100%* | *0%* |
 | Gaussian Naive Bayes | 84.8% | 93.2% | 55.1% |
-| Decision tree | – | 92.0% | **67.4%** |
+| Decision tree | 86.5% | 92.0% | **67.4%** |
 | Random forest (N = 10 trees, depth 4) | **88.8%** | 96.3% | 62.7% |
 
 The random forest settings came from a grid search over 1–10 trees and depth 1–5.
